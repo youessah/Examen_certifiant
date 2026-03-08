@@ -1,0 +1,174 @@
+2026-03-08 10:28:34.252 [restartedMain] DEBUG c.e.e.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-03-08 10:28:36.858 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57062d52, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43700cff, org.springframework.security.web.context.SecurityContextHolderFilter@46f8130d, org.springframework.security.web.header.HeaderWriterFilter@cfe845c, org.springframework.web.filter.CorsFilter@104d949f, org.springframework.security.web.authentication.logout.LogoutFilter@2cf4345b, com.ecomove.ecoMove.security.JwtAuthenticationFilter@4160a57a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50737026, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22dff468, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1069ccb3, org.springframework.security.web.session.SessionManagementFilter@6c27a8ad, org.springframework.security.web.access.ExceptionTranslationFilter@374f298, org.springframework.security.web.access.intercept.AuthorizationFilter@3d92c26d]
+2026-03-08 10:36:45.590 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui.html
+2026-03-08 10:36:45.612 [http-nio-8085-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:45.622 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui.html
+2026-03-08 10:36:45.727 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2026-03-08 10:36:45.727 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:45.727 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2026-03-08 10:36:45.793 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2026-03-08 10:36:45.794 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2026-03-08 10:36:45.795 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:45.796 [http-nio-8085-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:45.796 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2026-03-08 10:36:45.797 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:36:45.797 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:36:45.797 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2026-03-08 10:36:45.797 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:36:45.798 [http-nio-8085-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:45.798 [http-nio-8085-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:45.799 [http-nio-8085-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:45.799 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:36:45.799 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:36:45.800 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:36:46.120 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2026-03-08 10:36:46.130 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:36:46.132 [http-nio-8085-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:46.133 [http-nio-8085-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:46.133 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:36:46.135 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2026-03-08 10:36:46.212 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2026-03-08 10:36:46.213 [http-nio-8085-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:36:46.214 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2026-03-08 10:37:56.340 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2026-03-08 10:37:56.342 [http-nio-8085-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.343 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2026-03-08 10:37:56.391 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2026-03-08 10:37:56.392 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2026-03-08 10:37:56.392 [http-nio-8085-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.393 [http-nio-8085-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.393 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2026-03-08 10:37:56.394 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2026-03-08 10:37:56.394 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:37:56.394 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:37:56.395 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:37:56.395 [http-nio-8085-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.395 [http-nio-8085-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.395 [http-nio-8085-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.396 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:37:56.396 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:37:56.396 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:37:56.553 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2026-03-08 10:37:56.554 [http-nio-8085-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.554 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2026-03-08 10:37:56.557 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:37:56.558 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.559 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:37:56.584 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2026-03-08 10:37:56.584 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:37:56.585 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2026-03-08 10:57:08.665 [restartedMain] DEBUG c.e.e.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-03-08 10:57:11.281 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@339f82cb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d8a9d8d, org.springframework.security.web.context.SecurityContextHolderFilter@7168fb29, org.springframework.security.web.header.HeaderWriterFilter@4068ad26, org.springframework.web.filter.CorsFilter@7d7e3b0b, org.springframework.security.web.authentication.logout.LogoutFilter@14d1ac86, com.ecomove.ecoMove.security.JwtAuthenticationFilter@125bfab0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@215d0c46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2494c64e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@446baf35, org.springframework.security.web.session.SessionManagementFilter@1ea129a2, org.springframework.security.web.access.ExceptionTranslationFilter@14a10ebf, org.springframework.security.web.access.intercept.AuthorizationFilter@37628d1a]
+2026-03-08 10:57:20.797 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui.html
+2026-03-08 10:57:20.827 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:20.836 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui.html
+2026-03-08 10:57:20.915 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2026-03-08 10:57:20.917 [http-nio-8085-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:20.917 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2026-03-08 10:57:20.973 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2026-03-08 10:57:20.973 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2026-03-08 10:57:20.975 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:20.976 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:57:20.977 [http-nio-8085-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:20.977 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2026-03-08 10:57:20.978 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2026-03-08 10:57:20.979 [http-nio-8085-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:20.978 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:57:20.980 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:57:20.981 [http-nio-8085-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:20.981 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:57:20.981 [http-nio-8085-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:20.982 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:57:20.982 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:57:21.266 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2026-03-08 10:57:21.267 [http-nio-8085-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:21.268 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2026-03-08 10:57:21.287 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:57:21.289 [http-nio-8085-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:21.290 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:57:21.324 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2026-03-08 10:57:21.326 [http-nio-8085-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:57:21.328 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2026-03-08 10:59:19.797 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2026-03-08 10:59:19.798 [http-nio-8085-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:19.799 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2026-03-08 10:59:19.847 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2026-03-08 10:59:19.847 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2026-03-08 10:59:19.848 [http-nio-8085-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:19.848 [http-nio-8085-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:19.849 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2026-03-08 10:59:19.849 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2026-03-08 10:59:19.851 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:59:19.851 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:59:19.851 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:59:19.852 [http-nio-8085-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:19.852 [http-nio-8085-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:19.852 [http-nio-8085-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:19.852 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2026-03-08 10:59:19.852 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 10:59:19.853 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 10:59:20.006 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2026-03-08 10:59:20.006 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:20.007 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2026-03-08 10:59:20.013 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:59:20.015 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:20.016 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+2026-03-08 10:59:20.039 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2026-03-08 10:59:20.040 [http-nio-8085-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 10:59:20.040 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2026-03-08 11:01:34.265 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2026-03-08 11:01:34.266 [http-nio-8085-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.267 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2026-03-08 11:01:34.314 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2026-03-08 11:01:34.315 [http-nio-8085-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.315 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2026-03-08 11:01:34.316 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.316 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2026-03-08 11:01:34.317 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2026-03-08 11:01:34.318 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 11:01:34.318 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2026-03-08 11:01:34.318 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 11:01:34.319 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.319 [http-nio-8085-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.319 [http-nio-8085-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.319 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 11:01:34.319 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2026-03-08 11:01:34.319 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 11:01:34.539 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2026-03-08 11:01:34.540 [http-nio-8085-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.541 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2026-03-08 11:01:34.543 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+2026-03-08 11:01:34.545 [http-nio-8085-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.545 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+2026-03-08 11:01:34.577 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2026-03-08 11:01:34.577 [http-nio-8085-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:01:34.577 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2026-03-08 11:02:27.516 [restartedMain] DEBUG c.e.e.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-03-08 11:02:30.060 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@228c7c22, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1edc4dff, org.springframework.security.web.context.SecurityContextHolderFilter@27af05fd, org.springframework.security.web.header.HeaderWriterFilter@4b6fe0ee, org.springframework.web.filter.CorsFilter@1c19e864, org.springframework.security.web.authentication.logout.LogoutFilter@5b7f604b, com.ecomove.ecoMove.security.JwtAuthenticationFilter@251b632a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bb50ab1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12c06cf1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1338ea7f, org.springframework.security.web.session.SessionManagementFilter@288f2956, org.springframework.security.web.access.ExceptionTranslationFilter@45e7ab6e, org.springframework.security.web.access.intercept.AuthorizationFilter@278063b8]
+2026-03-08 11:02:42.634 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui.html
+2026-03-08 11:02:42.676 [http-nio-8085-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:42.693 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui.html
+2026-03-08 11:02:42.769 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2026-03-08 11:02:42.769 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:42.769 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2026-03-08 11:02:42.849 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2026-03-08 11:02:42.851 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2026-03-08 11:02:42.853 [http-nio-8085-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:42.854 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2026-03-08 11:02:42.854 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 11:02:42.854 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:42.854 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 11:02:42.855 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2026-03-08 11:02:42.855 [http-nio-8085-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:42.855 [http-nio-8085-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:42.856 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2026-03-08 11:02:42.856 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-03-08 11:02:42.856 [http-nio-8085-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:42.857 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-08 11:02:42.858 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2026-03-08 11:02:43.162 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2026-03-08 11:02:43.172 [http-nio-8085-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:43.173 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2026-03-08 11:02:43.241 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2026-03-08 11:02:43.243 [http-nio-8085-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-08 11:02:43.244 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
