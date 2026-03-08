@@ -1,0 +1,107 @@
+2026-03-07 10:33:59.656 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/register
+2026-03-07 10:34:27.519 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/register
+2026-03-07 11:43:20.243 [restartedMain] DEBUG c.e.e.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-03-07 11:43:23.283 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32b90347, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@440b0ebe, org.springframework.security.web.context.SecurityContextHolderFilter@5eede3bd, org.springframework.security.web.header.HeaderWriterFilter@36328f9e, org.springframework.web.filter.CorsFilter@9410eb1, org.springframework.security.web.authentication.logout.LogoutFilter@2de66c57, com.ecomove.ecoMove.security.JwtAuthenticationFilter@19f110fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e54bde0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58dc3ae2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ceb0aed, org.springframework.security.web.session.SessionManagementFilter@5e104a2c, org.springframework.security.web.access.ExceptionTranslationFilter@ec2acfb, org.springframework.security.web.access.intercept.AuthorizationFilter@5da1452]
+2026-03-07 11:45:41.754 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/register
+2026-03-07 11:46:09.526 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/register
+2026-03-07 11:46:09.543 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07 11:46:09.566 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/register
+2026-03-07 11:46:10.874 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2026-03-07 11:46:10.877 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07 11:46:10.902 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-03-07 11:46:10.943 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2026-03-07 11:46:10.952 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07 11:46:10.954 [http-nio-8085-exec-3] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-03-07 11:48:23.009 [restartedMain] DEBUG c.e.e.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-03-07 11:48:26.117 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@568648e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14b174e5, org.springframework.security.web.context.SecurityContextHolderFilter@2e796004, org.springframework.security.web.header.HeaderWriterFilter@1c6ee572, org.springframework.web.filter.CorsFilter@5add133, org.springframework.security.web.authentication.logout.LogoutFilter@5dc88685, com.ecomove.ecoMove.security.JwtAuthenticationFilter@2a62fc82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7938390e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@419ef895, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a2f3ee, org.springframework.security.web.session.SessionManagementFilter@10193a98, org.springframework.security.web.access.ExceptionTranslationFilter@d21a347, org.springframework.security.web.access.intercept.AuthorizationFilter@68c488b7]
+2026-03-07 11:48:55.723 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/register
+2026-03-07 11:48:55.753 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/register
+2026-03-07 11:48:55.759 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07 11:48:55.763 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/register
+2026-03-07 11:49:03.084 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-03-07 11:49:03.091 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 11:49:03.092 [http-nio-8085-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07 11:49:03.093 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 11:49:03.344 [http-nio-8085-exec-4] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 11:49:18.981 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-03-07 11:49:18.984 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 11:49:19.032 [http-nio-8085-exec-6] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 11:49:19.033 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 11:49:19.141 [http-nio-8085-exec-6] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 11:49:22.705 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/me
+2026-03-07 11:49:22.709 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/me
+2026-03-07 11:49:22.716 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 11:49:22.728 [http-nio-8085-exec-9] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 11:49:22.729 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 11:49:22.752 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 11:49:22.764 [http-nio-8085-exec-9] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 11:49:22.765 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 11:49:42.497 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 11:49:42.503 [http-nio-8085-exec-1] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 11:49:42.504 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 11:49:42.611 [http-nio-8085-exec-1] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 11:50:01.051 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/trips
+2026-03-07 11:50:01.056 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/trips
+2026-03-07 11:50:01.064 [http-nio-8085-exec-3] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 11:50:01.065 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/trips
+2026-03-07 11:50:42.418 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 11:50:42.425 [http-nio-8085-exec-5] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 11:50:42.425 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 11:50:42.529 [http-nio-8085-exec-5] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 11:50:52.068 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 11:50:52.075 [http-nio-8085-exec-6] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 11:50:52.075 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 11:50:52.177 [http-nio-8085-exec-6] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 13:24:57.427 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/me
+2026-03-07 13:24:57.428 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/me
+2026-03-07 13:24:57.441 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 13:24:57.452 [http-nio-8085-exec-9] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:24:57.453 [http-nio-8085-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 13:24:57.476 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 13:24:57.484 [http-nio-8085-exec-1] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:24:57.485 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 13:25:05.216 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-03-07 13:25:05.233 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 13:25:05.239 [http-nio-8085-exec-3] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:25:05.240 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 13:25:05.346 [http-nio-8085-exec-3] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 13:25:17.255 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 13:25:17.260 [http-nio-8085-exec-4] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:25:17.261 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 13:25:17.367 [http-nio-8085-exec-4] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 13:25:24.018 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 13:25:24.026 [http-nio-8085-exec-5] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:25:24.027 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 13:25:24.155 [http-nio-8085-exec-5] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 13:25:34.065 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 13:25:34.074 [http-nio-8085-exec-6] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:25:34.075 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 13:25:34.097 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 13:25:34.105 [http-nio-8085-exec-7] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:25:34.106 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 13:25:48.248 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 13:25:48.256 [http-nio-8085-exec-10] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 13:25:48.257 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 13:25:48.385 [http-nio-8085-exec-10] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 17:11:58.332 [http-nio-8085-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-03-07 17:11:58.348 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 17:11:58.348 [http-nio-8085-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07 17:11:58.349 [http-nio-8085-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 17:11:58.466 [http-nio-8085-exec-2] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 17:12:25.627 [http-nio-8085-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/me
+2026-03-07 17:12:25.627 [http-nio-8085-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/me
+2026-03-07 17:12:25.639 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 17:12:25.646 [http-nio-8085-exec-5] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 17:12:25.648 [http-nio-8085-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 17:12:25.668 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/me
+2026-03-07 17:12:25.677 [http-nio-8085-exec-6] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 17:12:25.678 [http-nio-8085-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/me
+2026-03-07 17:12:29.911 [http-nio-8085-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-03-07 17:12:29.925 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 17:12:29.932 [http-nio-8085-exec-10] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 17:12:29.932 [http-nio-8085-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 17:12:30.065 [http-nio-8085-exec-10] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-03-07 17:13:19.172 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-03-07 17:13:19.177 [http-nio-8085-exec-8] DEBUG c.e.e.s.JwtAuthenticationFilter - Authentification JWT réussie pour l'utilisateur : mbongowilfried02@gmail.com
+2026-03-07 17:13:19.178 [http-nio-8085-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-03-07 17:13:19.278 [http-nio-8085-exec-8] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user

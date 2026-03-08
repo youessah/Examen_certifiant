@@ -1,0 +1,6 @@
+2026-03-06 17:49:49.147 [main] INFO  c.e.e.controller.AuthControllerTest - Starting AuthControllerTest using Java 23.0.1 with PID 20952 (started by Wulfrid MBONGO in A:\EADL\Examen_certifiant)
+2026-03-06 17:49:49.149 [main] DEBUG c.e.e.controller.AuthControllerTest - Running with Spring Boot v3.2.3, Spring v6.1.4
+2026-03-06 17:49:49.150 [main] INFO  c.e.e.controller.AuthControllerTest - The following 1 profile is active: "test"
+2026-03-06 17:49:58.329 [main] INFO  c.e.e.controller.AuthControllerTest - Started AuthControllerTest in 9.803 seconds (process running for 13.806)
+2026-03-06 17:49:58.886 [main] INFO  c.e.e.controller.AuthController - Requête de connexion reçue pour : jarle@ecomove.com
+2026-03-06 17:49:58.976 [main] INFO  c.e.e.controller.AuthController - Requête d'inscription reçue pour : jarle@ecomove.com
