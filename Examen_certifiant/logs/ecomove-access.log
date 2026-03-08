@@ -22,3 +22,9 @@
 2026-03-08 23:05:46.047 [main] INFO  c.e.e.controller.AuthControllerTest - Started AuthControllerTest in 22.719 seconds (process running for 26.449)
 2026-03-08 23:05:47.012 [main] INFO  c.e.e.controller.AuthController - Requête de connexion reçue pour : jarle@ecomove.com
 2026-03-08 23:05:47.176 [main] INFO  c.e.e.controller.AuthController - Requête d'inscription reçue pour : jarle@ecomove.com
+2026-03-08 23:15:04.875 [main] INFO  c.e.e.controller.AuthControllerTest - Starting AuthControllerTest using Java 21.0.1 with PID 16708 (started by FLORINDA KEVINE in C:\Users\FLORINDA KEVINE\Desktop\Audrey\Examen_certifiant\Examen_certifiant)
+2026-03-08 23:15:04.878 [main] DEBUG c.e.e.controller.AuthControllerTest - Running with Spring Boot v3.2.3, Spring v6.1.4
+2026-03-08 23:15:04.880 [main] INFO  c.e.e.controller.AuthControllerTest - The following 1 profile is active: "test"
+2026-03-08 23:15:41.262 [main] INFO  c.e.e.controller.AuthControllerTest - Started AuthControllerTest in 38.422 seconds (process running for 44.878)
+2026-03-08 23:15:42.549 [main] INFO  c.e.e.controller.AuthController - Requête de connexion reçue pour : jarle@ecomove.com
+2026-03-08 23:15:42.779 [main] INFO  c.e.e.controller.AuthController - Requête d'inscription reçue pour : jarle@ecomove.com
